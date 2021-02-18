@@ -50,7 +50,7 @@ class _HomePageState extends State<HomePage> {
   }
   Future<void> openOnBoard() async {
     await Future.delayed(
-        Duration(seconds: 5),
+        Duration(seconds: 3),
             () => Navigator.push(context, MaterialPageRoute(builder: (context) => OnBoarding()))
     );
   }
